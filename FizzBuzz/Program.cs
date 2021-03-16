@@ -18,9 +18,11 @@ namespace FizzBuzz
 
 
 
-
         public static string FizzBuzz(int x)
-        { 
+        {
+            
+           
+             
             if (x%3 ==0 && x%5==0)
             {
                 return "fizzbuzz";
@@ -42,7 +44,7 @@ namespace FizzBuzz
         }
         static void Main (string[]args)
         {
-           
+            Console.WriteLine("Enter a Number");
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(FizzBuzz (x));
         }
